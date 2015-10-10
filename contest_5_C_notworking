@@ -1,0 +1,10 @@
+time_12 = input()
+time_24 = ''
+if time_12[time_12.find(' ')+1:] == 'a.m.':
+    if int(time_12[:time_12.find(':') < 10:
+        time_24 = time_24.iadd('0')
+        print('0', end = '')
+    time_24 += time_12[:time_12.find(' ')]
+    print(time_12[:time_12.find(' ')])
+    
+print(time_24)    
