@@ -18,6 +18,6 @@ for i in range(100):
 	pylab.plot(xlist, ylist)
 	pylab.draw()
 	
-pylab.close()	
+pylab.close()	 
 	
 
