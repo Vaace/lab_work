@@ -5,4 +5,4 @@ x = np.arange(-5, 6, 0.01)
 plt.plot(x, x**2 - x - 6)
 plt.grid(True)
 
-plt.show()
+plt.show() 
